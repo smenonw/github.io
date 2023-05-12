@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fridays on WETHOD / Learning Center</title>
+    <link>https://smenonw.github.io/friday/</link>
+    <description>Recent content in Fridays on WETHOD / Learning Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 May 2017 13:51:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://smenonw.github.io/friday/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Friday</title>
+      <link>https://smenonw.github.io/friday/index/</link>
+      <pubDate>Mon, 22 May 2017 13:51:35 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/friday/index/</guid>
+      <description>Overview WETHOD follows a weekly cycle: we think that a week is a good trade-off between the need to control the project&amp;rsquo;s progress as much as possible and the need to not burden the control activities.
+Every Friday an e-mail will remind:
+ Each project manager to compile the Project Status for its projects;
+ Each collaborator to compile the Timesheet for the projects he worked on.
+  Timesheet Remember to insert only the real worked hours, cheating isn&amp;rsquo;t useful to anybody.</description>
+    </item>
+    
+  </channel>
+</rss>

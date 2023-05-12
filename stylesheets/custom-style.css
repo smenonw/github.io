@@ -1,0 +1,61 @@
+.header {
+	overflow: visible;
+}
+.article img {
+	display:block;
+	margin: auto;
+	padding: 32px 0 0 0;
+}
+.header .stretch {
+    padding: 0 0 0 20px !important;
+}
+.ds-dropdown-menu{
+	font-size: 14px !important;
+	top: 48px !important;
+	box-shadow: none !important;
+	min-width: 0 !important;
+	max-width: 100% !important;
+	width: 100% !important;
+}
+@media only screen and (min-width: 640px) {
+    .ds-dropdown-menu{
+		top: 51px !important;
+	}
+}	
+.algolia-autocomplete {
+    width: 100%;
+}
+@media only screen and (min-width: 640px) {
+    .algolia-autocomplete {
+    	width: 428px;
+	}
+}	
+
+.algolia-autocomplete .ds-dropdown-menu:before {
+	display: none !important;
+}
+
+.algolia-autocomplete .ds-dropdown-menu [class^=ds-dataset-] {
+	border-radius: 0 !important;
+}
+
+.algolia-autocomplete .algolia-docsearch-suggestion--content:before, .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column:before,
+.algolia-docsearch-suggestion--subcategory-column {
+	display: none !important;
+}
+
+.algolia-autocomplete .algolia-docsearch-suggestion--content {
+	width: 100% !important;
+	float: none !important;
+}
+.button-reset {
+	display: none;
+}
+.external-link span {
+	margin-right: 4px;
+}
+
+.external-link svg {
+	top: 1px;
+    position: relative;
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Group-setups on WETHOD / Learning Center</title>
+    <link>https://smenonw.github.io/group-setup/</link>
+    <description>Recent content in Group-setups on WETHOD / Learning Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Mar 2019 10:01:45 +0000</lastBuildDate>
+    
+	<atom:link href="https://smenonw.github.io/group-setup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setup</title>
+      <link>https://smenonw.github.io/group-setup/index/</link>
+      <pubDate>Fri, 29 Mar 2019 10:01:45 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/group-setup/index/</guid>
+      <description>Overview If you need to manage various company belonging to the same holding, this is the right tool for you: enabling the group module lets you appreciate aggregates statistics about all of your companies and made possible to track intercompany work.
+Hierarchy Once you have enabled the group module, you can start building the hierarchy of your group: drag companies inside the graph, create levels and name them.
+Clients normalizer From here you can map company-level clients onto group-wide clusters, this is useful for those reports which displays values related to clients.</description>
+    </item>
+    
+  </channel>
+</rss>

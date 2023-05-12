@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Profit-losses on WETHOD / Learning Center</title>
+    <link>https://smenonw.github.io/profit-loss/</link>
+    <description>Recent content in Profit-losses on WETHOD / Learning Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Aug 2017 08:23:59 +0000</lastBuildDate>
+    
+	<atom:link href="https://smenonw.github.io/profit-loss/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Profit &amp; Loss</title>
+      <link>https://smenonw.github.io/profit-loss/index/</link>
+      <pubDate>Tue, 29 Aug 2017 08:23:59 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/profit-loss/index/</guid>
+      <description>Overview This page provides an overview of the budgetary slippages between a company&amp;rsquo;s projected revenues and its expenses, as well as its budget target over a given period of time. The three columns budget, forecast 1 and forecast 2 can be used to set the company&amp;rsquo;s financial goals for each quarter of the year.
+The column budget in the revenues row is used to set the revenues&amp;rsquo; target for the company, which is used in the widget Revenue Clock and in the report Production Value.</description>
+    </item>
+    
+  </channel>
+</rss>

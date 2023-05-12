@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Group-profit-losses on WETHOD / Learning Center</title>
+    <link>https://smenonw.github.io/group-profit-loss/</link>
+    <description>Recent content in Group-profit-losses on WETHOD / Learning Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Mar 2019 10:01:45 +0000</lastBuildDate>
+    
+	<atom:link href="https://smenonw.github.io/group-profit-loss/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Profit &amp; Loss</title>
+      <link>https://smenonw.github.io/group-profit-loss/index/</link>
+      <pubDate>Fri, 29 Mar 2019 10:01:45 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/group-profit-loss/index/</guid>
+      <description> Overview An aggregated view for the profit &amp;amp; loss report
+Note
+Data in this section use a daily cache to keep things fast. If you need something more updated please use the &amp;ldquo;Refresh data&amp;rdquo; button.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

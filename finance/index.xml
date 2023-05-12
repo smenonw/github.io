@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Finances on WETHOD / Learning Center</title>
+    <link>https://smenonw.github.io/finance/</link>
+    <description>Recent content in Finances on WETHOD / Learning Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 May 2017 10:06:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://smenonw.github.io/finance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finance</title>
+      <link>https://smenonw.github.io/finance/index/</link>
+      <pubDate>Wed, 24 May 2017 10:06:54 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/finance/index/</guid>
+      <description>Orders In this section you can see all your orders and create new ones.
+Create a new order  Click button New Order and a sidebar will open.   Insert project name. The job order will be automatically filled by the system. Compile all the required fields Click on the &amp;ldquo;save&amp;rdquo; button Your order will be added to the list  Order&amp;rsquo;s fields description  Project: the target Project Job Order: automatically filled selecting the project Supplier: the target Supplier for this Order Purchase Code: an identifier for the Order Value: the total cost of this Order Area: the area of the budget this Order is about Date: the issue date of this Order Duration: answers to the question &amp;ldquo;when this order will used for the project?</description>
+    </item>
+    
+  </channel>
+</rss>

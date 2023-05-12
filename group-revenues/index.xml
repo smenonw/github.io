@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Group-revenues on WETHOD / Learning Center</title>
+    <link>https://smenonw.github.io/group-revenues/</link>
+    <description>Recent content in Group-revenues on WETHOD / Learning Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Mar 2019 10:01:45 +0000</lastBuildDate>
+    
+	<atom:link href="https://smenonw.github.io/group-revenues/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Revenues</title>
+      <link>https://smenonw.github.io/group-revenues/index/</link>
+      <pubDate>Fri, 29 Mar 2019 10:01:45 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/group-revenues/index/</guid>
+      <description>Overview An aggregated view for the revenues report
+Revenues by month Here you have the yearly revenues of your group, distributed on a monthly basis. As you can see in the legend, there are various notable things in the chart:
+ Production based on companies&amp;rsquo; project status Production plan based on companies&amp;rsquo; production plan Bluesky based on companies&amp;rsquo; bluesky Monthly production value obtained by dividing the target (which you can edit from the company&amp;rsquo;s profit &amp;amp; loss and displayed inside the clock chart on the right) for 12 (the number of months per year) Production trend based on the production of the last three years  Revenues by client A table where you can appreciate how much production has been generated from each company of the group an towards each of their clients.</description>
+    </item>
+    
+  </channel>
+</rss>

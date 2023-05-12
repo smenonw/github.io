@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General-admins on WETHOD / Learning Center</title>
+    <link>https://smenonw.github.io/general-admin/</link>
+    <description>Recent content in General-admins on WETHOD / Learning Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Aug 2017 10:24:40 +0200</lastBuildDate>
+    
+	<atom:link href="https://smenonw.github.io/general-admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>G &amp; A</title>
+      <link>https://smenonw.github.io/general-admin/index/</link>
+      <pubDate>Tue, 29 Aug 2017 10:24:40 +0200</pubDate>
+      
+      <guid>https://smenonw.github.io/general-admin/index/</guid>
+      <description> Overview Here you can list all your general and administration costs. This is the right place to put all that costs which aren&amp;rsquo;t about external costs, payroll or marketing.
+Each cost has:
+ Start month
+ End month
+ Net month
+  </description>
+    </item>
+    
+  </channel>
+</rss>

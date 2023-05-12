@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Order-plans on WETHOD / Learning Center</title>
+    <link>https://smenonw.github.io/order-plan/</link>
+    <description>Recent content in Order-plans on WETHOD / Learning Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Jun 2019 08:24:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://smenonw.github.io/order-plan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Order Plan</title>
+      <link>https://smenonw.github.io/order-plan/index/</link>
+      <pubDate>Wed, 19 Jun 2019 08:24:15 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/order-plan/index/</guid>
+      <description>Overview From here you can see the orders&amp;rsquo; amount grouped by projects.
+The way you will visualise your orders depends on the preference you have specified in the Company Settings page.
+Each row in this view represents a project and carries with it the following information:
+ Name, PM and client for the project The order&amp;rsquo;s costs for the current year For each month you can see the planned orders&amp;rsquo; amount and the approved orders amount (coloured in grey or in red if lower than planned) The total planned amount for the current year  Note</description>
+    </item>
+    
+  </channel>
+</rss>

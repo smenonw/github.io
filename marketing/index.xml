@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marketings on WETHOD / Learning Center</title>
+    <link>https://smenonw.github.io/marketing/</link>
+    <description>Recent content in Marketings on WETHOD / Learning Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Aug 2017 08:24:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://smenonw.github.io/marketing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Marketing</title>
+      <link>https://smenonw.github.io/marketing/index/</link>
+      <pubDate>Tue, 29 Aug 2017 08:24:54 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/marketing/index/</guid>
+      <description>Overview This is the right place to put all that costs related to the promotion of your products or services.
+Each cost has:
+ Start month
+ End month
+ Net month
+  Use the Import costs button to copy all the marketing costs&amp;rsquo; rows from the previous year.</description>
+    </item>
+    
+  </channel>
+</rss>

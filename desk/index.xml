@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desks on WETHOD / Learning Center</title>
+    <link>https://smenonw.github.io/desk/</link>
+    <description>Recent content in Desks on WETHOD / Learning Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Mar 2020 22:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://smenonw.github.io/desk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Desk</title>
+      <link>https://smenonw.github.io/desk/index/</link>
+      <pubDate>Tue, 31 Mar 2020 22:00:00 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/desk/index/</guid>
+      <description>Overview The Desk is your private space and your favorite place. Here you can find a set of utilities and widgets all for you.
+Activities This box collects all the items that were assigned to you in any boards. You can scroll through them, search by item name and mark them as completed without going to the dedicated page. If this box is empty try to add a column &amp;ldquo;Member&amp;rdquo; in a board and set yourself as &amp;ldquo;Activity&amp;rsquo;s assignee&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>
