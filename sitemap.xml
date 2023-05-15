@@ -132,7 +132,7 @@
   </url>
   
   <url>
-    <loc>https://smenonw.github.io/gross-margin/</loc>
+    <loc>https://smenonw.github.io/gross-margin/index/</loc>
   </url>
   
   <url>
@@ -209,6 +209,11 @@
   <url>
     <loc>https://smenonw.github.io/glossary/</loc>
     <lastmod>2017-05-22T15:31:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://smenonw.github.io/gross-margin/</loc>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gross-margins on WETHOD / Learning Center</title>
+    <link>https://smenonw.github.io/gross-margin/</link>
+    <description>Recent content in Gross-margins on WETHOD / Learning Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://smenonw.github.io/gross-margin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://smenonw.github.io/gross-margin/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/gross-margin/index/</guid>
+      <description>weight: &amp;ldquo;93&amp;rdquo; date: 2021-03-22T23:00:00+00:00 title: Gross Margin type: &amp;ldquo; menu: company: weight: 4
+Overview Here you can see the details about Profit &amp;amp; Loss&amp;rsquo; gross margin for each month of the current year.
+A project&amp;rsquo;s gross margin is the difference between its revenues and its external costs.
+Three important indicators are given in the first rows:
+ Total: the sum of all your projects&amp;rsquo; gross margin, per month
+ Bluesky: the difference between revenues&amp;rsquo; bluesky and external costs&amp;rsquo; bluesky</description>
+    </item>
+    
+  </channel>
+</rss>
