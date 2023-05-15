@@ -688,7 +688,7 @@
 
 <h2 id="account">Account</h2>
 
-<p>Here you set your <strong>name</strong>, <strong>surname</strong> and <strong>password</strong>.</p>
+<p>Here you set your <strong>name</strong>, <strong>surname</strong> and <strong>password</strong>.</p>
 
 <p>If you have the right permissions, you can:</p>
 
@@ -750,7 +750,7 @@
 <li><strong>Chargeable</strong>: the projects in this category are billable</li>
 <li><strong>Everybody can plan</strong>: the projects in this category can be planned by everybody, not only by its pm or account</li>
 <li><strong>Unlimited planning</strong>: the projects in this category can be planned regardless budget availability</li>
-<li><strong>Must be in program</strong>: the projects in this category must be added to a <a href="https://smenonw.github.io/pipeline/index#programs">Program</a></li>
+<li><strong>Must be in program</strong>: the projects in this category must be added to a <a href="https://smenonw.github.io/pipeline/index/#programs">Program</a></li>
 <li><strong>Invoice driven budget</strong>: the value of the projects on this category changes based on the total invoiced for that project. This logic also updates the Invoice Plan and the Production value. You can use this flag on all the project categories in which you are not sure of the final price because it can vary slightly based on external factors. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.</li>
 <li><strong>Capex</strong>: the projects in this category must be treated as investments</li>
 <li><strong>Workable</strong>: you can switch off this option for projects used to track holidays or permits, this way timesheets done on them are not used to calculate chargeability</li>
@@ -771,7 +771,7 @@
 <li><p><strong>Track opportunity stage</strong>: Whether you can assign a custom stage to an opportunity or not. Please mind tracking and opportunity stage will tightly couple stage and probability attributes.
 Check the stage section for further information.</p></li>
 
-<li><p><strong>Intercompany supplier</strong>: an invoice for a project in this category cannot be sent if the project is not an <a href="https://smenonw.github.io/pipeline/index#intercompany-projects">intercompany project</a> or if its intercompany client does not <a href="https://smenonw.github.io/finance/index#intercompany-client">appear as an actual company client</a></p></li>
+<li><p><strong>Intercompany supplier</strong>: an invoice for a project in this category cannot be sent if the project is not an <a href="https://smenonw.github.io/pipeline/index/#intercompany-projects">intercompany project</a> or if its intercompany client does not <a href="https://smenonw.github.io/finance/index/#intercompany-client">appear as an actual company client</a></p></li>
 
 <li><p><strong>Project status</strong>:</p>
 
@@ -781,10 +781,10 @@ Check the stage section for further information.</p></li>
 <li><strong>Completed percentage</strong>: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)</li>
 </ul></li>
 
-<li><p><strong>Automatic timesheet</strong>: here you can choose to automate the timesheets creation process for this kind of projects. This way, timesheets are automatically created each weekend based on planned hours. <em>Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists.</em> See the <a href="https://smenonw.github.io/friday/index#automatic">timesheet section</a> for further details.</p></li>
+<li><p><strong>Automatic timesheet</strong>: here you can choose to automate the timesheets creation process for this kind of projects. This way, timesheets are automatically created each weekend based on planned hours. <em>Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists.</em> See the <a href="https://smenonw.github.io/friday/index/#automatic">timesheet section</a> for further details.</p></li>
 </ul></li>
 
-<li><p><strong>Job order</strong> 🔜: Here you can add and edit the templates used to generate new job orders.  Remember to choose which job order categories your template will be valid for, and click &ldquo;Apply.&rdquo;  This way, when you want to add the job order to one of your projects, you will see the &ldquo;Generate&rdquo; button, which will automatically provide you with a job order based on this template, with a unique, sequentially created number.  A category can only be associated with one template; therefore, you will not find it available among those that can be selected in other templates.  When you add a new template, by default, it will contain a sequential number, starting with 1.  You can add as many blocks as you want by dragging and dropping them from the list at the top: enter the text you want, or the current year indication, formatted to 2 digits or 4. Once you have added the blocks, you can put them in any order you like, again by dragging them to the appropriate area of your template.  If you want the starting number not to be one (this can happen to you, for example, if you activate this automatism after you have already created some projects that follow the template you are interested in) just change the value in the block, which by default shows &ldquo;1.&rdquo; The value you choose will be the first one suggested when a job order is generated.  If you want the job order number to restart at &ldquo;1&rdquo; each new year, click on &ldquo;Yearly reset.&rdquo; In order to do this, however, you will need to have a &ldquo;year&rdquo; block in your template.  This value, of course, is unique to each template, and is incremented by 1 for each new job order generated. Each project will benefit from automatic job order generation depending on its job order category: if there is a template associated with its category, that will be the one used to create the job order.  To choose the number formatting, change the &ldquo;Min digit padding&rdquo;: this is the (minimum) length that the sequential number of your job order will have.  When you have finished customizing the template, remember to save to make the changes effective and usable for your projects! Learn more about how to use this feature for your <a href="https://smenonw.github.io/pipeline/index#projects">projects</a>.
+<li><p><strong>Job order</strong> 🔜: Here you can add and edit the templates used to generate new job orders.  Remember to choose which job order categories your template will be valid for, and click &ldquo;Apply.&rdquo;  This way, when you want to add the job order to one of your projects, you will see the &ldquo;Generate&rdquo; button, which will automatically provide you with a job order based on this template, with a unique, sequentially created number.  A category can only be associated with one template; therefore, you will not find it available among those that can be selected in other templates.  When you add a new template, by default, it will contain a sequential number, starting with 1.  You can add as many blocks as you want by dragging and dropping them from the list at the top: enter the text you want, or the current year indication, formatted to 2 digits or 4. Once you have added the blocks, you can put them in any order you like, again by dragging them to the appropriate area of your template.  If you want the starting number not to be one (this can happen to you, for example, if you activate this automatism after you have already created some projects that follow the template you are interested in) just change the value in the block, which by default shows &ldquo;1.&rdquo; The value you choose will be the first one suggested when a job order is generated.  If you want the job order number to restart at &ldquo;1&rdquo; each new year, click on &ldquo;Yearly reset.&rdquo; In order to do this, however, you will need to have a &ldquo;year&rdquo; block in your template.  This value, of course, is unique to each template, and is incremented by 1 for each new job order generated. Each project will benefit from automatic job order generation depending on its job order category: if there is a template associated with its category, that will be the one used to create the job order.  To choose the number formatting, change the &ldquo;Min digit padding&rdquo;: this is the (minimum) length that the sequential number of your job order will have.  When you have finished customizing the template, remember to save to make the changes effective and usable for your projects! Learn more about how to use this feature for your <a href="https://smenonw.github.io/pipeline/index/#projects">projects</a>.
 <img src="https://smenonw.github.io/uploads/2023/02/06/job-order-template-settings.gif" alt="" /></p></li>
 
 <li><p><strong>Metadata</strong>:  Add a detail depth to a project in pipeline with metadata tags. Add a new tag, specify its values and check the box if required. Metadata tags are useful to reach a better insight within a single cluster of data, i.e. in the report Sales Pipeline.</p></li>
@@ -793,16 +793,16 @@ Check the stage section for further information.</p></li>
 
 <li><p><strong>Project Won/Lost Bot</strong>: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be <em>lost</em> when its probability is 0 and <em>won</em> when its probability is 90</p></li>
 
-<li><p><strong>Project Types</strong>: create and manage labels that you can assign to projects in <a href="https://smenonw.github.io/pipeline/index#projects">pipeline</a>. A project type is basically composed by a name, you can than aggregate it&rsquo;s values by using a group or use a short label to better identify a project type;</p></li>
+<li><p><strong>Project Types</strong>: create and manage labels that you can assign to projects in <a href="https://smenonw.github.io/pipeline/index/#projects">pipeline</a>. A project type is basically composed by a name, you can than aggregate it&rsquo;s values by using a group or use a short label to better identify a project type;</p></li>
 
-<li><p><strong>Timesheet</strong>: here you can choose to switch to the detailed view for your timesheets. When this is enabled, you will be able to fill in your timesheet day by day, and also specify in which budget area your worked on. See the <a href="https://smenonw.github.io/friday/index#detailed">timesheet section</a> for further details. You can also set a weekly or daily reminder for your employee to fill in the timesheet. <strong>Only users that have set timesheet as required will receive the email</strong>. You will also be able to enable time limitation for timesheet. See the <a href="https://smenonw.github.io/friday/index#time-limit">timesheet section</a> for further details.</p></li>
+<li><p><strong>Timesheet</strong>: here you can choose to switch to the detailed view for your timesheets. When this is enabled, you will be able to fill in your timesheet day by day, and also specify in which budget area your worked on. See the <a href="https://smenonw.github.io/friday/index/#detailed">timesheet section</a> for further details. You can also set a weekly or daily reminder for your employee to fill in the timesheet. <strong>Only users that have set timesheet as required will receive the email</strong>. You will also be able to enable time limitation for timesheet. See the <a href="https://smenonw.github.io/friday/index/#time-limit">timesheet section</a> for further details.</p></li>
 
 <li><p><strong>Project</strong>:</p>
 
 <ul>
 <li><strong>Required contact</strong>: Whether the client&rsquo;s contact is required in order to create a Project</li>
 <li><strong>Required Job Order</strong>: Whether the Job Order is required for a Project to show up on Timesheet and Project Status sections</li>
-<li><strong>Wasted Hours</strong>: Whether the <a href="https://smenonw.github.io/glossary/index#wasted-hours"><em>wasted hours</em></a> mechanism is enabled or disabled</li>
+<li><strong>Wasted Hours</strong>: Whether the <a href="https://smenonw.github.io/glossary/index/#wasted-hours"><em>wasted hours</em></a> mechanism is enabled or disabled</li>
 </ul></li>
 
 <li><p><strong>Project status</strong> This feature allows the user to edit on a weekly basis the risk status for each project.To add a new risk status click on &ldquo;Add risk status&rdquo;, choose a colour, edit the name then click &ldquo;save&rdquo;.</p></li>
@@ -812,19 +812,19 @@ Check the stage section for further information.</p></li>
 <ul>
 <li><strong>Unlimited planning</strong>: plan without budget constraints</li>
 <li><strong>Use 7-days week calendar</strong>: to display Saturdays and Sundays in calendars</li>
-<li><strong>Highlight weekends</strong>: display Saturdays and Sundays in People Allocation using a special pattern and show a warning when user tries to allocate on these days (<a href="https://smenonw.github.io/planning/index#weekends">learn more</a>). This feature can be enabled only if &ldquo;Use 7-days week calendar&rdquo; is enabled too</li>
+<li><strong>Highlight weekends</strong>: display Saturdays and Sundays in People Allocation using a special pattern and show a warning when user tries to allocate on these days (<a href="https://smenonw.github.io/planning/index/#weekends">learn more</a>). This feature can be enabled only if &ldquo;Use 7-days week calendar&rdquo; is enabled too</li>
 </ul></li>
 
 <li><p><strong>Project opportunities</strong> From this section you are able to create a new status or edit the existing ones. Stages can be reordered using the drag and drop and you can edit their name, color and description.The order you see in this section is the same that will be applied when ordering your opportunities by the stage column.Please mind that the default status blank can&rsquo;t be edited and reordered while Lost and won statuses can&rsquo;t have their description updated.If you deleted an opportunity stage all opportunities that were using that stage will have their stage switched to blank.Only custom stages can be deleted.Also please note that in order to assign a stage different than blank to an opportunity you have to be sure that the JOC assigned to the opportunity is tracking the opportunity status.For more information check the Job Order Category settings section.</p></li>
 
 <li><p><strong>Currencies</strong>: a list of all the known currencies, each one can be made available or set as <em>master</em> (a.k.a. the currency you currently use in your company)</p></li>
 
-<li><p><strong>Won/Lost Feedback</strong>: here you can define some possible reasons which can led to the win or loss of a project. A project is considered <strong>won</strong> when its probability reaches 90 or above, on the other hand it&rsquo;s considered <strong>lost</strong> when it goes down to 0. Users will be able to choose one of these reasons from the projects pipeline (remember to enable the related job order category&rsquo;s flag). This feedbacks will be then shown on the <a href="https://smenonw.github.io/finance/index#client-details">Client Details</a> page and can be edited from the &ldquo;More Action &gt; Edit Feedback&rdquo; button in the projects pipeline.</p></li>
+<li><p><strong>Won/Lost Feedback</strong>: here you can define some possible reasons which can led to the win or loss of a project. A project is considered <strong>won</strong> when its probability reaches 90 or above, on the other hand it&rsquo;s considered <strong>lost</strong> when it goes down to 0. Users will be able to choose one of these reasons from the projects pipeline (remember to enable the related job order category&rsquo;s flag). This feedbacks will be then shown on the <a href="https://smenonw.github.io/finance/index/#client-details">Client Details</a> page and can be edited from the &ldquo;More Action &gt; Edit Feedback&rdquo; button in the projects pipeline.</p></li>
 
 <li><p><strong>Project &amp; Team Review</strong> where you can:</p>
 
 <ul>
-<li>Enable/disable <a href="https://smenonw.github.io/pipeline/index#project-team-review">Project &amp; Team Review</a></li>
+<li>Enable/disable <a href="https://smenonw.github.io/pipeline/index/#project-team-review">Project &amp; Team Review</a></li>
 <li>Choose the review mode, you can select between a partial or a 360° team review, whether the team should be able to review just the project and its manager or the project and all team members (incl. the manager).</li>
 <li>Allow to submit incomplete project or team review, when the user has insufficient evidence to vote a specific criterion.</li>
 <li>Add or edit criteria in order to evaluate projects and team members. The reviewer will be asked to express a rate for each of the chosen criteria</li>
@@ -841,16 +841,16 @@ This feature allows the user to visually browse the list of suppliers and filter
 This feature allows the user to determine a status of a supplier and if it is eligible for contracts or not. To set status for your suppliers hit the button &ldquo;Enable&rdquo;. Once the feature is enabled, hit &ldquo;New status&rdquo;, add a name for your status, assign a colour of your choice and put a check if suppliers with this status will be available for contracts. Remember that a user can issue an order only to suppliers that are available for contracts.</li>
 </ul></li>
 
-<li><p><strong>Expenses</strong>: manage <a href="https://smenonw.github.io/finance/index#set-a-category-of-expense">categories of expenses</a></p></li>
+<li><p><strong>Expenses</strong>: manage <a href="https://smenonw.github.io/finance/index/#set-a-category-of-expense">categories of expenses</a></p></li>
 
-<li><p><strong>Bank accounts</strong>: set the list of bank accounts available for invoicing matters in your company. To each one, you can associate a name and an IBAN code. You can then select for each of your <a href="https://smenonw.github.io/finance/index#client-list">clients</a> the appropriate bank account usually used for payments.</p></li>
+<li><p><strong>Bank accounts</strong>: set the list of bank accounts available for invoicing matters in your company. To each one, you can associate a name and an IBAN code. You can then select for each of your <a href="https://smenonw.github.io/finance/index/#client-list">clients</a> the appropriate bank account usually used for payments.</p></li>
 
-<li><p><strong>VAT rates</strong>: set the list of VAT rate options that may be applied to an invoice. To each one, you can associate a short label (to easily recognize it), the rate and a more complete description of it. You can then select for each of your <a href="https://smenonw.github.io/finance/index#client-list">clients</a> the appropriate VAT rate usually used for invoicing.
+<li><p><strong>VAT rates</strong>: set the list of VAT rate options that may be applied to an invoice. To each one, you can associate a short label (to easily recognize it), the rate and a more complete description of it. You can then select for each of your <a href="https://smenonw.github.io/finance/index/#client-list">clients</a> the appropriate VAT rate usually used for invoicing.
 <strong>Split payment for VAT</strong>: In some cases, legislation in Italy requires that when a state-owned company pays for an invoice, it pays VAT directly to the tax authority and the net amount to the supplier of goods and services. Suppliers must display the split amounts on the documents they issue to the client.</p></li>
 
 <li><p><strong>Payment terms</strong>: manage all the types of payment terms agreed with your clients for invoicing matters. Associate a name and specify when the payment should be issued: is it 30 net days after the issue of the invoice or is it 30 net days (end of the month)?</p></li>
 
-<li><p><strong>Google Drive Sync</strong>: manage <a href="https://smenonw.github.io/pipeline/index#sync-with-google-drive">Google Drive integration with project canvases</a>. To enable this integration you will be prompted to allow wethod access to your Google Drive and you will need to choose a folder inside one of your shared drives to use as root for all the files to keep in sync. This functionality works by sharing the selected root folder with wethod, so it can create folders and upload files in the place of the user. In order for this to work, you need to be sure to have enough Google Drive permissions to share the selected root folder with someone else (<strong>Manager</strong> or <strong>Content manager</strong>). When the integration is enabled, you can:</p>
+<li><p><strong>Google Drive Sync</strong>: manage <a href="https://smenonw.github.io/pipeline/index/#sync-with-google-drive">Google Drive integration with project canvases</a>. To enable this integration you will be prompted to allow wethod access to your Google Drive and you will need to choose a folder inside one of your shared drives to use as root for all the files to keep in sync. This functionality works by sharing the selected root folder with wethod, so it can create folders and upload files in the place of the user. In order for this to work, you need to be sure to have enough Google Drive permissions to share the selected root folder with someone else (<strong>Manager</strong> or <strong>Content manager</strong>). When the integration is enabled, you can:</p>
 
 <ul>
 <li>See the <strong>root folder</strong> you have chosen</li>
@@ -861,7 +861,7 @@ This feature allows the user to determine a status of a supplier and if it is el
 </ul>
 
 <p><img src="https://smenonw.github.io/uploads/2022/03/09/drive-canvas-enable.gif" alt="" />
-* <strong>Company Order Plan View</strong>: here you can set your preferences about the way you want to visualise the company yearly orders, in the Company Order Plan page. Check <a href="https://smenonw.github.io/order-plan/index#overview">here</a> to see how this setting affects the visualisation of data.</p>
+* <strong>Company Order Plan View</strong>: here you can set your preferences about the way you want to visualise the company yearly orders, in the Company Order Plan page. Check <a href="https://smenonw.github.io/order-plan/index/#overview">here</a> to see how this setting affects the visualisation of data.</p>
 
 <h2 id="alerts-engine">Alerts Engine</h2>
 
@@ -881,7 +881,7 @@ This feature allows the user to determine a status of a supplier and if it is el
 <li><strong>Budget, Invoices, Orders, Pipeline, Planning, Project Status, Timesheet</strong>: who can do what;</li>
 <li><strong>Dashboard</strong>: which widgets are available to who;</li>
 <li><strong>Header</strong>: which section of WETHOD are available;</li>
-<li><strong>Reports</strong>: which sections of *Reports *are available;</li>
+<li><strong>Reports</strong>: which sections of *Reports *are available;</li>
 <li><strong>Settings</strong>: who can access <em>Settings</em>.</li>
 </ul>
 
@@ -920,8 +920,8 @@ This feature allows the user to determine a status of a supplier and if it is el
 <p>Here you can just edit your profile pic, for the other information please refer to the relative section:</p>
 
 <ul>
-<li>Your name can be edited from the <a href="https://smenonw.github.io/settings/index#account">account section</a></li>
-<li>Your tags and your level can be edited from from the <a href="https://smenonw.github.io/settings/index#team">team section</a> if you have the right permissions</li>
+<li>Your name can be edited from the <a href="https://smenonw.github.io/settings/index/#account">account section</a></li>
+<li>Your tags and your level can be edited from from the <a href="https://smenonw.github.io/settings/index/#team">team section</a> if you have the right permissions</li>
 </ul>
 
 <h3 id="contact-information">Contact information</h3>
@@ -991,7 +991,7 @@ For each report you can appreciate:</p>
 
 <h4 id="fridayness">Fridayness</h4>
 
-<p>The days of delay in compiling <a href="https://smenonw.github.io/friday/index#timesheet">timesheet</a> and <a href="https://smenonw.github.io/friday/index#project-status">project status</a>: the more you wait to compile them, the more your report goes up.</p>
+<p>The days of delay in compiling <a href="https://smenonw.github.io/friday/index/#timesheet">timesheet</a> and <a href="https://smenonw.github.io/friday/index/#project-status">project status</a>: the more you wait to compile them, the more your report goes up.</p>
 
 <p>Timesheet and project status are meant to be compiled on Friday (this is why they are placed under the Friday section 😉); if you compile them on Saturday you get a +1 day on the report, if you compile them on Sunday you get a +2 days on the report and so on.</p>
 
@@ -1007,7 +1007,7 @@ For each report you can appreciate:</p>
 
 <h4 id="do-the-production-plan">Do The Production Plan</h4>
 
-<p>The percentage of <a href="https://smenonw.github.io/planning/index#production-plan">production plan</a>&rsquo;s correction accumulation: when you edit a project status in the past or when a new month starts, the production plan is recalculated in order to find possible mismatches between the production you planned and the actual production.</p>
+<p>The percentage of <a href="https://smenonw.github.io/planning/index/#production-plan">production plan</a>&rsquo;s correction accumulation: when you edit a project status in the past or when a new month starts, the production plan is recalculated in order to find possible mismatches between the production you planned and the actual production.</p>
 
 <p>The adjustments (or accumulation) are reported as orange monthly apex and are used to compute the moving average for this chart. So, how accurate is your production planning?</p>
 
@@ -1035,7 +1035,7 @@ For each report you can appreciate:</p>
 
 <h3 id="kudos">Kudos</h3>
 
-<p>Each team member has a section in the profile page, called Kudos, with the results of the <a href="https://smenonw.github.io/pipeline/index#project-team-review">reviews</a> received in a year both as a team member and as a project manager. The widget &ldquo;What people say&rdquo; collects all the written reviews received in a year.</p>
+<p>Each team member has a section in the profile page, called Kudos, with the results of the <a href="https://smenonw.github.io/pipeline/index/#project-team-review">reviews</a> received in a year both as a team member and as a project manager. The widget &ldquo;What people say&rdquo; collects all the written reviews received in a year.</p>
 
 <p><img src="https://smenonw.github.io/uploads/2020/06/30/profile-kudos.png" alt="" /></p>
 
@@ -1063,7 +1063,7 @@ For each report you can appreciate:</p>
 
 <h3 id="team-members-business-unit">Team members&rsquo; Business Unit</h3>
 
-<p>Wethod keeps a record of each time a user changes its business unit. All the data coming from previous planning and timesheet will remain linked to the business unit(s) the user belonged to at the time. To assign a business unit to each of the employees head to the <a href="https://smenonw.github.io/payroll/index#overview">payroll section</a>.</p>
+<p>Wethod keeps a record of each time a user changes its business unit. All the data coming from previous planning and timesheet will remain linked to the business unit(s) the user belonged to at the time. To assign a business unit to each of the employees head to the <a href="https://smenonw.github.io/payroll/index/#overview">payroll section</a>.</p>
 
 <p><img src="https://smenonw.github.io/uploads/2020/07/10/business-unit-payroll.png" alt="" /></p>
 

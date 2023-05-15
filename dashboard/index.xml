@@ -18,7 +18,7 @@
       
       <guid>https://smenonw.github.io/dashboard/index/</guid>
       <description>Overview The Dashboard is basically a set of widgets, any one of which can be added or removed and customized by the user.
-Widgets Adding a new widget to your dashboard is very easy: just click on the “+” sign and pick one from the list of the available widgets.
+Widgets Adding a new widget to your dashboard is very easy: just click on the “+” sign and pick one from the list of the available widgets.
 Alerts This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):</description>
     </item>
     
