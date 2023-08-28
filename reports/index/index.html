@@ -755,13 +755,14 @@
 
 <ul>
 <li><strong>Revenues</strong>: the project&rsquo;s final net price</li>
-<li><strong>Internal Cost</strong>: budget&rsquo;s hours cost</li>
 <li><strong>External Cost</strong>: the sum of all budget&rsquo;s external costs, travels and expenses excluded</li>
 <li><strong>Travels</strong>: external costs related to &ldquo;Travels&rdquo; budget&rsquo;s task</li>
 <li><strong>Expenses</strong>: external costs related to &ldquo;Expenses&rdquo; budget&rsquo;s task</li>
-<li><strong>Gross Margin</strong>: the difference between final net price and costs (either internal and external)</li>
-<li><strong>Wasted</strong>: the wasted money, which is the sum of the wasted hours multiplied by the cost of their <a href="https://smenonw.github.io/settings/index/#company">levels</a></li>
-<li><strong>Net Margin</strong>: the difference between gross margin and wasted</li>
+<li><strong>Gross Margin</strong>: final net price without external cost, travels and expenses</li>
+<li><strong>Internal Cost</strong>: budget&rsquo;s hours cost</li>
+<li><strong>Contribution Margin</strong>: gross margin without internal cost. This value tells you how much a project is able to cover fixed costs</li>
+<li><strong>Wasted</strong>: the &ldquo;wasted&rdquo; money, which is the sum of the wasted hours multiplied by the cost of their <a href="https://smenonw.github.io/settings/index/#company">levels</a></li>
+<li><strong>Net Contribution Margin</strong>: the difference between contribution margin and wasted</li>
 </ul>
 
 <p>For each indicator you can see its value for:</p>
@@ -776,102 +777,12 @@
 
 <p>The grey percentage under <em>margin</em> can be read as margin against revenues.</p>
 
-<p>{{&lt; note title=&ldquo;Note&rdquo; &gt;}}
-<strong>If project is over, projected external costs comes from sent orders and projected travels comes from</strong>  <strong><a href="https://smenonw.github.io/finance/index/#travels">travels</a>&rsquo;s costs</strong>
-{{&lt; /note &gt;}}</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>If project is over, projected external costs comes from sent orders and projected travels comes from</strong>  <strong><a href="https://smenonw.github.io/finance/index/#travels">travels</a>&rsquo;s costs</strong></p>
+</div>
 
-<p><img src="https://smenonw.github.io/uploads/2021/05/06/economics-new.png" alt="" /></p>
-
-<h3 id="groupwide-economics">Groupwide Economics</h3>
-
-<p>{{&lt; note title=&ldquo;Note&rdquo; &gt;}} This section is available only for companies in a Group{{&lt; /note &gt;}}</p>
-
-<p>The groupwide economics section shows the economics of a project and all its <a href="https://smenonw.github.io/pipeline/index/#intercompany-projects">intercompanies</a>.</p>
-
-<p>Let&rsquo;s use an example where the company A is the &ldquo;master&rdquo; company and the company B is the supplier (the same can be applied to multiple suppliers).</p>
-
-<ul>
-<li><strong>Revenues</strong>
-
-<ul>
-<li>Baseline: final net price of the first budget of A</li>
-<li>Forecast: final net price of the last budget of A</li>
-<li>As of Project Status: final net price of last budget of A based on project status percentages</li>
-<li>Projected: final net price of the last approved budget of A</li>
-</ul></li>
-<li><strong>Overall Cost</strong>
-
-<ul>
-<li>Baseline: sum of all costs of first budget of A and B</li>
-<li>Forecast: sum of all costs of last budget of A and B</li>
-<li>As of Project Status: sum of all costs of last budget of A and B based on project status percentages</li>
-<li>Projected: sum of all costs of last budget if A and B based on project status percentages</li>
-</ul></li>
-<li><strong>Internal Cost of A</strong>
-
-<ul>
-<li>Baseline: internal costs of the first budget of A</li>
-<li>Forecast: internal costs of the last budget of A</li>
-<li>As of Project Status: timesheet cost of A based on project status percentages</li>
-<li>Projected: projection to 100% of the timesheet cost of A</li>
-</ul></li>
-<li><strong>External Cost of A</strong>
-
-<ul>
-<li>Baseline: external costs of the first budget of A without intercompanies value</li>
-<li>Forecast: external costs of the last budget of A without intercompanies value</li>
-<li>As of Project Status: external costs of the last budget of A without intercompanies value and based on project status percentages</li>
-<li>Projected: external costs of the first budget of A without intercompanies value</li>
-</ul></li>
-<li><strong>Travels of A</strong>
-
-<ul>
-<li>Baseline: external cost of the &ldquo;Travel&rdquo; task of the first budget of A</li>
-<li>Forecast: external cost of the &ldquo;Travel&rdquo; task of the last budget of A</li>
-<li>As of Project Status: external cost of the &ldquo;Travel&rdquo; task of the last budget of A based on project status percentages</li>
-<li>Projected: external cost of the &ldquo;Travel&rdquo; task of the first budget of A</li>
-</ul></li>
-<li><strong>Expenses of A</strong>
-
-<ul>
-<li>Baseline: external cost of the &ldquo;Expenses&rdquo; task of the first budget of A</li>
-<li>Forecast: external cost of the &ldquo;Expenses&rdquo; task of the last budget of A</li>
-<li>As of Project Status: external cost of the task names &ldquo;Expenses&rdquo; of the last budget of A based on project status percentages</li>
-<li>Projected: external cost of the &ldquo;Expenses&rdquo; task of the first budget of A</li>
-</ul></li>
-<li><strong>Internal Cost of B</strong>
-
-<ul>
-<li>Baseline: internal costs of the first budget of B</li>
-<li>Forecast: internal costs of the last budget of B</li>
-<li>As of Project Status: timesheet cost of the last budget of B based on project status percentages</li>
-<li>Projected: projection to 100% of the timesheet cost of B</li>
-</ul></li>
-<li><strong>External Cost of B</strong>
-
-<ul>
-<li>Baseline: external costs of the first budget of B without intercompanies value</li>
-<li>Forecast: external costs of the last budget of B without intercompanies value</li>
-<li>As of Project Status: external costs of the last budget of B without intercompanies value and based on project status percentages</li>
-<li>Projected: external costs of the first budget of B without intercompanies value</li>
-</ul></li>
-<li><strong>Travels of B</strong>
-
-<ul>
-<li>Baseline: external cost of the &ldquo;Travel&rdquo; task of the first budget of B</li>
-<li>Forecast: external cost of the &ldquo;Travel&rdquo; task of the last budget of B</li>
-<li>As of Project Status: external cost of the &ldquo;Travel&rdquo; task of the last budget of B based on project status percentages</li>
-<li>Projected: external cost of the &ldquo;Travel&rdquo; task of the first budget of B</li>
-</ul></li>
-<li><strong>Expenses of B</strong>
-
-<ul>
-<li>Baseline: external cost of the &ldquo;Expenses&rdquo; task of the first budget of B</li>
-<li>Forecast: external cost of the &ldquo;Expenses&rdquo; task of the last budget of B</li>
-<li>As of Project Status: external cost of the task names &ldquo;Expenses&rdquo; of the last budget of B based on project status percentages</li>
-<li>Projected: external cost of the &ldquo;Expenses&rdquo; task of the first budget of B</li>
-</ul></li>
-</ul>
+<p><img src="https://smenonw.github.io/uploads/Schermata 2023-06-09 alle 08.11.12.png" alt="" /></p>
 
 <h3 id="roadrunner-index-days-left-worked-hours">Roadrunner Index - Days Left - Worked Hours</h3>
 
@@ -1153,7 +1064,10 @@ listing all the grouped clients with their:</p>
 
 <p><img src="https://smenonw.github.io/uploads/2021/01/18/project-team-review-changelog.png" alt="" /></p>
 
-<p>{{&lt; note title=&ldquo;Note&rdquo; &gt;}} This section is available only if <strong>project &amp; team reviews</strong> are enabled for the company.{{&lt; /note &gt;}}</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This section is available only if <strong>project &amp; team reviews</strong> are enabled for the company.</p>
+</div>
 
 <h2 id="sales-overview">Sales Overview</h2>
 
@@ -1231,9 +1145,10 @@ listing all the grouped clients with their:</p>
 <li><strong>Segmentation of hours worked</strong>, grouped by job order category.</li>
 </ul>
 
-<p>{{&lt; note title=&ldquo;Note&rdquo; &gt;}}
-<strong>Set a revenue target for the year in the Profit &amp; Loss section to get better insights.</strong>
-{{&lt; /note &gt;}}</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Set a revenue target for the year in the Profit &amp; Loss section to get better insights.</strong></p>
+</div>
 
 <h3 id="monthly-briefing">Monthly Briefing</h3>
 
@@ -1258,9 +1173,10 @@ listing all the grouped clients with their:</p>
 <li><strong><a href="https://smenonw.github.io/reports/index/#backlog">Backlog</a></strong></li>
 </ul>
 
-<p>{{&lt; note title=&ldquo;Note&rdquo; &gt;}}
-<strong>Set a revenue budget/forecast for the year in the Profit &amp; Loss section to get better insights.</strong>
-{{&lt; /note &gt;}}</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Set a revenue budget/forecast for the year in the Profit &amp; Loss section to get better insights.</strong></p>
+</div>
 
 <h2 id="people-insights">People Insights</h2>
 

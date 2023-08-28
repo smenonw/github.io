@@ -38,7 +38,7 @@ Data in this section use a daily cache to keep things fast. If you need somethin
     <item>
       <title>Getting Started</title>
       <link>https://smenonw.github.io/getting-started/index/</link>
-      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      <pubDate>Wed, 09 Mar 2016 22:00:00 +0000</pubDate>
       
       <guid>https://smenonw.github.io/getting-started/index/</guid>
       <description>Warm Up Visit app.wethod.com/registration to create your team and get a 14 days free trial, we don&amp;rsquo;t force you to insert a credit card and you can take advantage of our tutorial.
@@ -57,6 +57,17 @@ Activities This box collects all the items that were assigned to you in any boar
     </item>
     
     <item>
+      <title>Setup</title>
+      <link>https://smenonw.github.io/group-setup/index/</link>
+      <pubDate>Fri, 29 Mar 2019 22:00:00 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/group-setup/index/</guid>
+      <description>Overview If you need to manage various company belonging to the same holding, this is the right tool for you: enabling the group module lets you appreciate aggregates statistics about all of your companies and made possible to track intercompany work.
+Hierarchy Once you have enabled the group module, you can start building the hierarchy of your group: drag companies inside the graph, create levels and name them.
+Clients normalizer From here you can map company-level clients onto group-wide clusters, this is useful for those reports which displays values related to clients.</description>
+    </item>
+    
+    <item>
       <title>Revenues</title>
       <link>https://smenonw.github.io/group-revenues/index/</link>
       <pubDate>Fri, 29 Mar 2019 10:01:45 +0000</pubDate>
@@ -65,17 +76,6 @@ Activities This box collects all the items that were assigned to you in any boar
       <description>Overview An aggregated view for the revenues report
 Revenues by month Here you have the yearly revenues of your group, distributed on a monthly basis. As you can see in the legend, there are various notable things in the chart:
  Production based on companies&amp;rsquo; project status Production plan based on companies&amp;rsquo; production plan Bluesky based on companies&amp;rsquo; bluesky Monthly production value obtained by dividing the target (which you can edit from the company&amp;rsquo;s profit &amp;amp; loss and displayed inside the clock chart on the right) for 12 (the number of months per year) Production trend based on the production of the last three years  Revenues by client A table where you can appreciate how much production has been generated from each company of the group an towards each of their clients.</description>
-    </item>
-    
-    <item>
-      <title>Setup</title>
-      <link>https://smenonw.github.io/group-setup/index/</link>
-      <pubDate>Fri, 29 Mar 2019 10:01:45 +0000</pubDate>
-      
-      <guid>https://smenonw.github.io/group-setup/index/</guid>
-      <description>Overview If you need to manage various company belonging to the same holding, this is the right tool for you: enabling the group module lets you appreciate aggregates statistics about all of your companies and made possible to track intercompany work.
-Hierarchy Once you have enabled the group module, you can start building the hierarchy of your group: drag companies inside the graph, create levels and name them.
-Clients normalizer From here you can map company-level clients onto group-wide clusters, this is useful for those reports which displays values related to clients.</description>
     </item>
     
     <item>
@@ -211,6 +211,20 @@ The monthly distribution is achieved by looking at the production plan of every 
     </item>
     
     <item>
+      <title>G &amp; A</title>
+      <link>https://smenonw.github.io/general-admin/index/</link>
+      <pubDate>Tue, 29 Aug 2017 22:00:00 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/general-admin/index/</guid>
+      <description> Overview Here you can list all your general and administration costs. This is the right place to put all that costs which aren&amp;rsquo;t about external costs, payroll or marketing.
+Each cost has:
+ Start month
+ End month
+ Net month
+  </description>
+    </item>
+    
+    <item>
       <title>Payroll</title>
       <link>https://smenonw.github.io/payroll/index/</link>
       <pubDate>Tue, 29 Aug 2017 08:41:03 +0000</pubDate>
@@ -220,20 +234,6 @@ The monthly distribution is achieved by looking at the production plan of every 
 Totals First thing that you see is a table which shows, by month and for the selected year, the company&amp;rsquo;s headcount and the sum of costs related to payroll.
 The sum of costs are displayed in the Total row, they&amp;rsquo;re a combination of costs coming from placeholders, employees and adjustments.
 The Headcount shows the amount of employees and placeholders with costs that impact on the company for the selected year.</description>
-    </item>
-    
-    <item>
-      <title>G &amp; A</title>
-      <link>https://smenonw.github.io/general-admin/index/</link>
-      <pubDate>Tue, 29 Aug 2017 10:24:40 +0200</pubDate>
-      
-      <guid>https://smenonw.github.io/general-admin/index/</guid>
-      <description> Overview Here you can list all your general and administration costs. This is the right place to put all that costs which aren&amp;rsquo;t about external costs, payroll or marketing.
-Each cost has:
- Start month
- End month
- Net month
-  </description>
     </item>
     
     <item>
@@ -253,7 +253,7 @@ Each cost has:
     <item>
       <title>Capex</title>
       <link>https://smenonw.github.io/capex/index/</link>
-      <pubDate>Fri, 23 Nov 2018 08:24:15 +0000</pubDate>
+      <pubDate>Fri, 23 Nov 2018 22:00:00 +0000</pubDate>
       
       <guid>https://smenonw.github.io/capex/index/</guid>
       <description>Overview This section provides an overview of all investment project values meant as Capital Expenditures.
@@ -265,7 +265,7 @@ To mark all costs in a project as CapEx, just assign that project a job order ca
     <item>
       <title>Invoice Plan</title>
       <link>https://smenonw.github.io/invoice-plan/index/</link>
-      <pubDate>Mon, 11 Mar 2019 08:24:15 +0000</pubDate>
+      <pubDate>Mon, 11 Mar 2019 22:00:00 +0000</pubDate>
       
       <guid>https://smenonw.github.io/invoice-plan/index/</guid>
       <description> Overview From here you can see the invoice plans of all your company&amp;rsquo;s projects.
@@ -289,7 +289,7 @@ Each row in this view represents a project and carries with it the following inf
     <item>
       <title>FAQ</title>
       <link>https://smenonw.github.io/faq/index/</link>
-      <pubDate>Mon, 22 May 2017 17:08:16 +0200</pubDate>
+      <pubDate>Mon, 22 May 2017 22:00:00 +0000</pubDate>
       
       <guid>https://smenonw.github.io/faq/index/</guid>
       <description>(function(q,u,e,s,t,i,o,n) { o=u.getElementsByTagName(e)[0]; n=u.createElement(s),n.async=1,n.defer=1,n.src=i; o.appendChild(n) })(window,document,&#34;head&#34;,&#34;script&#34;,&#34;res_pars&#34;, &#34;https://goresponsa.com/widgets/57a0713be0e2ee8a8c001270.js&#34;);  </description>
@@ -319,7 +319,7 @@ For example: if I have an actual value of 5 but I know that, in a particular mom
     <item>
       <title>Discover WETHOD</title>
       <link>https://smenonw.github.io/index/</link>
-      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <pubDate>Tue, 08 Mar 2016 22:00:00 +0000</pubDate>
       
       <guid>https://smenonw.github.io/index/</guid>
       <description>What It Is WETHOD is the online tool to manage people and projects in a collaborative way. We aim to make the project management simple, distributing the responsibilities among all the team members and reducing stress derived from projects organization.
