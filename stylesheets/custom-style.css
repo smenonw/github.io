@@ -69,7 +69,7 @@
 	padding: 4px;
 	text-align: center;
 	background-color: white;
-	border: 1px solid black;
+	border: 1px solid #363636;
 }
 
 .tab:first-child {
@@ -81,18 +81,18 @@
 }
 
 .tab--selected {
-	background-color: black;
+	background-color: #363636;
 }
 
 .tab a {
-	color: black;
+	color: black !important;
 	font-weight: bold;
 	text-decoration: none;
 	border: none;
 }
 
 .tab--selected a {
-	color: white;
+	color: white !important;
 }
 
 .actions-right {
