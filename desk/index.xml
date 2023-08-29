@@ -6,10 +6,19 @@
     <description>Recent content in Desks on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Aug 2023 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Aug 2023 22:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://smenonw.github.io/desk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>new-page</title>
+      <link>https://smenonw.github.io/desk/test/it/</link>
+      <pubDate>Mon, 28 Aug 2023 22:00:00 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/desk/test/it/</guid>
+      <description>Questo è un nuovo documento in una cartella di desk</description>
+    </item>
     
     <item>
       <title>desk2</title>
