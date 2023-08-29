@@ -88,8 +88,14 @@
 	color: black;
 	font-weight: bold;
 	text-decoration: none;
+	border: none;
 }
 
 .tab--selected a {
 	color: white;
+}
+
+.actions-right {
+	display: flex;
+	justify-content: flex-end;
 }
