@@ -59,3 +59,37 @@
 	top: 1px;
     position: relative;
 }
+
+.tabs {
+	display: flex;
+}
+
+.tab {
+	width: 45px;
+	padding: 4px;
+	text-align: center;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.tab:first-child {
+	border-radius: 16px 0 0 16px;
+}
+
+.tab:last-child {
+	border-radius: 0 16px 16px 0;
+}
+
+.tab--selected {
+	background-color: black;
+}
+
+.tab a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.tab--selected a {
+	color: white;
+}
