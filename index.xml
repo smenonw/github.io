@@ -318,20 +318,20 @@ For example: if I have an actual value of 5 but I know that, in a particular mom
     
     <item>
       <title>new-page</title>
+      <link>https://smenonw.github.io/desk/test/en/</link>
+      <pubDate>Mon, 28 Aug 2023 22:00:00 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/desk/test/en/</guid>
+      <description>This is a new document in the desk folder. 🍔</description>
+    </item>
+    
+    <item>
+      <title>new-page</title>
       <link>https://smenonw.github.io/desk/test/it/</link>
       <pubDate>Mon, 28 Aug 2023 22:00:00 +0000</pubDate>
       
       <guid>https://smenonw.github.io/desk/test/it/</guid>
       <description>Questo è un nuovo documento in una cartella di desk</description>
-    </item>
-    
-    <item>
-      <title>new-page</title>
-      <link>https://smenonw.github.io/desk/test/test/en/</link>
-      <pubDate>Mon, 28 Aug 2023 22:00:00 +0000</pubDate>
-      
-      <guid>https://smenonw.github.io/desk/test/test/en/</guid>
-      <description>This is a new document in a folder in desk. 🍔</description>
     </item>
     
     <item>
