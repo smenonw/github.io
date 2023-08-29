@@ -308,6 +308,15 @@ For example: if I have an actual value of 5 but I know that, in a particular mom
     </item>
     
     <item>
+      <title>it</title>
+      <link>https://smenonw.github.io/test/</link>
+      <pubDate>Mon, 28 Aug 2023 22:00:00 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/test/</guid>
+      <description>Nuova pagina in versione ITA. 🍕</description>
+    </item>
+    
+    <item>
       <title>desk2</title>
       <link>https://smenonw.github.io/desk/desk2/</link>
       <pubDate>Wed, 23 Aug 2023 22:00:00 +0000</pubDate>
