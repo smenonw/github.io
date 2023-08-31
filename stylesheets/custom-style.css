@@ -1,6 +1,15 @@
 .header {
 	overflow: visible;
 }
+
+.highlight {
+	background-color: #ffb948;
+}
+
+.highlight a:hover {
+	color: #FFFFFF !important;
+}
+
 .article img {
 	display:block;
 	margin: auto;
