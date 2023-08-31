@@ -108,3 +108,24 @@
 	display: flex;
 	justify-content: flex-end;
 }
+
+.page-center {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	height: 60vh;
+	justify-content: space-evenly;
+}
+
+.heading-jumbo {
+	color: #000;
+	text-align: center;
+	text-transform: none;
+	font-size: 64px;
+	line-height: 80px;
+}
+
+.large-text {
+	font-size: 20px;
+	line-height: 1.5;
+}
