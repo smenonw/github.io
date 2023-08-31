@@ -6,10 +6,19 @@
     <description>Recent content on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Mar 2022 23:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Aug 2023 22:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://smenonw.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>New 2</title>
+      <link>https://smenonw.github.io/new/new2/</link>
+      <pubDate>Wed, 23 Aug 2023 22:00:00 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/new/new2/</guid>
+      <description>This a new page in english.</description>
+    </item>
     
     <item>
       <title>Gross Margin</title>
@@ -369,6 +378,15 @@ For example: if I have an actual value of 5 but I know that, in a particular mom
       
       <guid>https://smenonw.github.io/desk/test/it/</guid>
       <description>Questo è un nuovo documento in una cartella di desk</description>
+    </item>
+    
+    <item>
+      <title>New</title>
+      <link>https://smenonw.github.io/new/index/</link>
+      <pubDate>Wed, 23 Aug 2023 22:00:00 +0000</pubDate>
+      
+      <guid>https://smenonw.github.io/new/index/</guid>
+      <description>Questa è una nuova pagina in italiano</description>
     </item>
     
     <item>
